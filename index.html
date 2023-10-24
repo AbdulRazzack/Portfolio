@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+</head>
+<body class="bg-color-primary text-color-white tracking-wider">
+    <header >
+        <nav class="container flex justify-between items-center fixed">
+            <div class="py-5 text-color-secondary font-bold text-3xl">
+                <a href="#home">
+                    <span class="text-color-white">Port</span>folio
+                </a>
+            </div>
+            <div>
+                <ul class="hidden lg:flex items-center space-x-6">
+                    <li><a href="#home" class="hover:text-color-secondary ease-in duration-200">Home</a></li>
+                    <li><a href="#about" class="hover:text-color-secondary ease-in duration-200">About me</a></li>
+                    <li><a href="#skills" class="hover:text-color-secondary ease-in duration-200">Skills</a></li>
+                    
+                    <li><button class="bg-color-secondary px-9 py-3 rounded-md captalize font-bold hover:opacity-80">Contact Me</button></li>
+
+
+                </ul>
+            </div>
+            <!-- mobile screen -->
+            <div id="hamburger" class="lg:hidden cursor-pointer z-50">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div id="menu" class="hidden bg-color-primary-dark h-[100vh] absolute inset-0">
+                <ul class="h-full grid place-items-center py-20">
+                    <li><a id="hlink" href="#home" class="hover:text-color-secondary ease-in duration-200">Home</a></li>
+                    <li><a id="hlink" href="#about" class="hover:text-color-secondary ease-in duration-200">About me</a></li>
+                    <li><a id="hlink" href="#skills" class="hover:text-color-secondary ease-in duration-200">Skills</a></li>
+                    
+                    <li><button class="bg-color-secondary px-9 py-3 rounded-md captalize font-bold hover:opacity-80">Contact Me</button></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="py-80 container">
+            <div class="flex flex-col md:flex-row items-center z-20  gap-4">
+                <div class="text-left">
+                    <img src="img/ワンピース.jpg" class="rounded-full" alt="">
+                </div>
+                <div class="text-center md:text-right md:w-3/4  md:pr-0">
+                    <h1 class="font-bold text-4xl md:text-6xl text-color-secondary">Mohammed Abdul Razzack</h1>
+                    <p class="py-8 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem minima alias sit ea, recusandae laborum maxime hic obcaecati animi, maiores labore blanditiis veniam natus, quidem in ullam soluta? Nam omnis cupiditate quod!</p>
+                </div>
+            </div>
+            
+        </section>
+        <section class="py-40">
+            <div class="text-center py-8">
+                <h1 class="font-bold text-6xl text-color-secondary">Skills</h1>
+                <p class="py-8 leading-relaxed">All the abilities I possess are listed in this section.</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 container">
+                <div class="text-center border-2 border-solid border-color-gray px-5 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200 py-20">
+                    <div>
+                        <i class="fa-brands fa-python text-4xl"></i>
+                    </div>
+                    <div class="py-4">
+                        <p class="leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, ad veniam. Harum eligendi delectus neque unde magni eius! Temporibus, aut!</p>
+                    </div>
+
+                </div>
+                <div class="text-center border-2 border-solid border-color-gray px-5 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200 py-20">
+                    <div>
+                        <i class="fa-brands fa-java text-4xl"></i>
+                    </div>
+                    <div class="py-4">
+                        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, ad veniam. Harum eligendi delectus neque unde magni eius! Temporibus, aut!</p>
+                    </div>
+
+                </div>
+                <div class="text-center border-2 border-solid border-color-gray px-5 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200 py-20">
+                    <div>
+                        <i class="fa-brands fa-js text-4xl"></i>
+                    </div>
+                    <div class="py-4 ">
+                        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, ad veniam. Harum eligendi delectus neque unde magni eius! Temporibus, aut!</p>
+                    </div>
+
+                </div>
+                <div class="text-center border-2 border-solid border-color-gray px-5 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200 py-20">
+                    <div>
+                        <i class="fa-brands fa-angular text-4xl"></i>
+                    </div>
+                    <div class="py-4">
+                        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, ad veniam. Harum eligendi delectus neque unde magni eius! Temporibus, aut!</p>
+                    </div>
+                </div>
+                <div class="text-center border-2 border-solid border-color-gray px-5 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200 py-20">
+                    <div>
+                        <i class="fa-brands fa-vuejs text-4xl"></i>
+                    </div>
+                    <div class="py-4">
+                        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, ad veniam. Harum eligendi delectus neque unde magni eius! Temporibus, aut!</p>
+                    </div>
+                </div>
+                <div class="text-center border-2 border-solid border-color-gray px-5 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200 py-20">
+                    <div>
+                        <i class="fa-brands fa-react text-4xl"></i>
+                    </div>
+                    <div class="py-4">
+                        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, ad veniam. Harum eligendi delectus neque unde magni eius! Temporibus, aut!</p>
+                    </div>
+                </div>
+                <div class="text-center border-2 border-solid border-color-gray px-5 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200 py-20">
+                    <div>
+                        <i class="fa-brands fa-node-js text-4xl"></i>
+                    </div>
+                    <div class="py-4">
+                        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, ad veniam. Harum eligendi delectus neque unde magni eius! Temporibus, aut!</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section id="footer">
+            <div class="bg-color-primary-dark relative">
+                <div class="container py-10">
+                    <div class="grid gap-10 md:grid-cols-3 pb-10">
+                        <div class="flex gap-5 items-center">
+                            <p>Follow Us</p>
+                            <a href="https://www.linkedin.com/in/mohammed-abdul-razzack-bbb43816a"><i id="linkedin" class="fa-brands fa-linkedin cursor-pointer"></i></a>
+                            <a href="https://github.com/AbdulRazzack"><i id="github" class="fa-brands fa-github cursor-pointer"></i></a>
+                            
+                        </div>
+                        <div class="text-center">
+                            <p>FAQ</p>
+                            <form id="faq-form">
+                            <input type="email" name="email" id="email" placeholder="email">
+                            <input type="text" name="message" class="py-0 border-none" id="message" placeholder="message">
+                            <button type="submit" class="bg-color-secondary rounded-r-md">-></button>
+                        </form>
+                        </div>
+                        <div class="text-right">
+                            <p>copyright ©2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script>
+        //hamburger
+        const hamburger = document.querySelector('#hamburger');
+        const menu = document.querySelector("#menu");
+        const linktag = document.querySelector("#hlink");
+        const fasolid = document.querySelector(".fa-solid")
+
+        hamburger.addEventListener('click',()=>{
+            menu.classList.toggle('hidden');
+            fasolid.classList.toggle('fa-xmark')
+        })
+        
+        linktag.forEach(link =>{
+            link.addEventListener('click',()=>{
+                menu.classList.toggle('hidden');
+                fasolid.classList.toggle('fa-xmark')
+            })
+        })
+        emailjs.init("_ctOzi__R8qOBHmdA");
+        document.getElementById("faq-form").addEventListener("submit",(event)=>{
+            event.preventDefault();
+            emailjs.sendForm('faq-form',this);
+        })
+    </script>
+</body>
+</html>
